@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <title>Our Coffeeshop - المقهى</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
-
+    
     <!-- 👇هنا style قم بإضافة وسم   -->
+    <style>
+      h1{text-align: center;}
+    </style>
     <!-- في منتصف الصفحة h1 لجعل العناوين داخل وسوم style قم باستعمال وسم   -->
   </head>
 
@@ -20,7 +23,7 @@
 
     <!-- ليصبحا بمحاذاة من اليمين إلي اليسار h3و p قم بإضافة التنسيق المناسب لوسمي -->
     <h3>ماذا نعني بالقهوة؟</h3>
-    <p>
+    <p class="p">
       القهوة مشروب يعد من بذور البن المحمصة، وينمو في أكثر من ٧٠ بلداً خصوصاً في
       المناطق الاستوائية في أمريكا الشمالية والجنوبية وجنوب شرق آسيا وشبه القارة
       الهندية وأفريقيا. ونظراً لاحتوائها على الكافيين، يمكن أن يكون للقهوة تأثير
@@ -28,7 +31,7 @@
     </p>
     <!-- margin قم بالفصل بين الفقرتين باللغة العربية والإنجليزية باستخدام خواص -->
     <h3>What does the word Coffee mean?</h3>
-    <p>
+    <p class="p1">
       Coffee is a brewed drink prepared from roasted coffee beans, the seeds of
       berries from certain Coffea species. The genus Coffea is native to
       tropical Africa and Madagascar, the Comoros, Mauritius, and Réunion in the
@@ -53,11 +56,11 @@
     <!-- في الأسفل border="1" قم بإزالة -->
 
     <!-- padding قم بالتعدييل على مكان الجدول في الصفحة باستخدام خواص -->
-    <table border="1">
+    <table>
       <tr>
-        <th>Starbucks</th>
-        <th>Costa</th>
-        <th>Caribou</th>
+        <th class="star">Starbucks</th>
+        <th class="costa">Costa</th>
+        <th class="caribou">Caribou</th>
       </tr>
       <tr>
         <!-- Coffeeshop 1 -->
@@ -101,15 +104,16 @@
 
     <!-- قم بجعل صور المتاجر في الأسفل مع أسماء المتاجر مرتبة في سطر واحد -->
     <!-- Linked Images -->
+   <div class="div">
     <a href="./assets/images/Starbucks.jpg" target="_blank">
       <!-- Image URL -->
-      <img
+    <img 
         src="./assets/images/Starbucks.jpg"
         alt="starbucks"
         height="100px"
         width="170px"
       />
-      <p><strong>Starbucks Coffee</strong></p>
+     
     </a>
 
     <a href="./assets/images/Costa.png" target="_blank">
@@ -119,7 +123,7 @@
         height="100px"
         width="100px"
       />
-      <p><strong>Costa Coffee</strong></p>
+      
     </a>
 
     <a href="./assets/images/Caribou.png" target="_blank">
@@ -129,10 +133,13 @@
         height="100px"
         width="100px"
       />
-      <p><strong>Caribou Coffee</strong></p>
+      
     </a>
-  </body>
-
+    <div>
+   <p class="padding"><strong>Starbucks Coffee</strong></p></body>
+<p class="padding"><strong>Costa Coffee</strong></p>
+<p class="padding"><strong>Caribou Coffee</strong></p>
+</div>
   <footer>
     <!-- strong -->
     <strong>Contact us</strong>

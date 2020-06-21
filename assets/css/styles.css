@@ -42,3 +42,18 @@
 /* body {
   background-color: grey;
 } */
+body{background-color: ;}
+h3{direction: rtl;}
+.p{direction: rtl;}
+.p1{direction: rtl;margin-top: 20px;}
+.star{color: green;background-color: green;}
+.costa{color: red;background-color: red;}
+.caribou{color: blue;background-color: blue;}
+a{text-decoration: none;}
+table{background-color:white ;padding: 20px;}
+ul{list-style-type:none}
+.div{display:inline;}
+.padding{
+display: inline;
+padding:15px ;
+}
